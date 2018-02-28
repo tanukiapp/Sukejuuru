@@ -3,7 +3,7 @@ Nodejs module for cal.syoboi.jp
 
 ### Install
 
-    npm install node-syoboi --save
+    npm install sukejuuru --save
 
 
 ### Usage
