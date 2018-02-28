@@ -1,14 +1,5 @@
-# node-syoboi
-Nodejs module for cal.syoboi.jp
+const Sukejuuru = require('../index.js')
 
-### Install
-
-    npm install node-syoboi --save
-
-
-### Usage
-
-```js
 const sukejuuru = new Sukejuuru()
 
 sukejuuru.get(6, "2018-02-26").then(
@@ -18,4 +9,3 @@ sukejuuru.get(6, "2018-02-26").then(
         console.log(err)
     }
 )
-```

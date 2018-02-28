@@ -1,0 +1,26 @@
+{
+  "name": "sukejuuru",
+  "version": "0.0.1",
+  "description": "Node module for Syobocal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanukiapp/sukejuuru.git"
+  },
+  "keywords": [
+    "syobocal",
+    "anime"
+  ],
+  "author": "Juanjo Salvador",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanukiapp/sukejuuru/issues"
+  },
+  "homepage": "https://github.com/tanukiapp/sukejuuru#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
