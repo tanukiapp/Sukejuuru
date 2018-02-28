@@ -1,4 +1,4 @@
-# node-syoboi
+# Sukejuuru
 Nodejs module for cal.syoboi.jp
 
 ### Install
