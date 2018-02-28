@@ -20,7 +20,5 @@
     "url": "https://github.com/tanukiapp/sukejuuru/issues"
   },
   "homepage": "https://github.com/tanukiapp/sukejuuru#readme",
-  "dependencies": {
-    "axios": "^0.18.0"
-  }
+  "dependencies": {}
 }
