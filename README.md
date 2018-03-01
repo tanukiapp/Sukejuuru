@@ -1,6 +1,8 @@
 # Sukejuuru
 Nodejs module for cal.syoboi.jp
 
+No production dependencies, pure Node.js!
+
 ### Install
 
     npm install sukejuuru --save
@@ -39,3 +41,11 @@ sukejuuru.get(6, "2018-02-26").then(
         title: '幽☆遊☆白書' },
         ...
     ]
+
+### Testing
+
+    npm test
+
+### Building
+
+    npm run build
