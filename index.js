@@ -3,7 +3,7 @@
 const Dateparser = require('./lib/dateparser.js')
 const http = require('http')
 
-class Sukejuuru {
+const sukejuuru = class Sukejuuru {
     constructor() {
         this._dateparser = new Dateparser()
         this.api = "http://cal.syoboi.jp"
@@ -60,12 +60,4 @@ class Sukejuuru {
     }
 }
 
-const sukejuuru = new Sukejuuru()
-
-sukejuuru.get(6, "2018-02-26").then(
-    (res) => {
-        console.log(res.length)
-    }, (err) => {
-        console.log(err)
-    }
-)
+module.exports = sukejuuru
