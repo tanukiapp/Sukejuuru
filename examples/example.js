@@ -1,8 +1,8 @@
-const Sukejuuru = require('../index.js')
+const Sukejuuru = require('../src/sukejuuru')
 
 const sukejuuru = new Sukejuuru()
 
-sukejuuru.get(6, '2018-02-26').then(
+sukejuuru.get(6, '2024-01-22').then(
   (res) => {
     console.log(res)
   }, (err) => {

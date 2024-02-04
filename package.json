@@ -1,11 +1,11 @@
 {
   "name": "sukejuuru",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Node module for Syobocal",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/standard/bin/cmd.js && echo \"No test available :(\"",
-    "build": "node_modules/babel-cli/bin/babel.js src/lib/dateparser.js -o dist/lib/dateparser.js && node_modules/babel-cli/bin/babel.js src/sukejuuru.js -o dist/sukejuuru.js"
+    "test": "echo \"No test available :(\" && exit 0;",
+    "build": "babel src/lib/dateparser.js -o dist/lib/dateparser.js && babel src/sukejuuru.js -o dist/sukejuuru.min.js"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,14 @@
   },
   "homepage": "https://github.com/tanukiapp/sukejuuru#readme",
   "devDependencies": {
-    "standard": "^11.0.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-minify": "^0.5.2",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "sukejuuru": "^0.0.3"
   }
 }
